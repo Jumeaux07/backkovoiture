@@ -18,12 +18,7 @@
 </div>
 
 
-
 	<!-- Page Content overlay -->
-
-
-
-
 	<!-- Vendor JS -->
 	<script src="{{asset('assets/js/vendors.min.js')}}"></script>
 	<script src="{{asset('assets/js/pages/chat-popup.js')}}"></script>
@@ -31,6 +26,8 @@
 
 	<!-- EduAdmin App -->
 	<script src="{{asset('assets/js/template.js')}}"></script>
+
+    @livewireScripts()
 
 
 
